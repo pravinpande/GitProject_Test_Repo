@@ -1,0 +1,406 @@
+
+> library (devtools)
+Error in library(devtools) : there is no package called ‘devtools’
+> install.packages("devtools")
+Installing package into ‘C:/Users/Abhi/Documents/R/win-library/3.2’
+(as ‘lib’ is unspecified)
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘mime’, ‘curl’, ‘openssl’, ‘R6’, ‘httr’, ‘memoise’, ‘whisker’, ‘digest’, ‘rstudioapi’, ‘jsonlite’, ‘git2r’, ‘withr’
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/mime_0.4.zip'
+Content type 'application/zip' length 37402 bytes (36 KB)
+downloaded 36 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/curl_0.9.7.zip'
+Content type 'application/zip' length 4399935 bytes (4.2 MB)
+downloaded 4.2 MB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/openssl_0.9.2.zip'
+Content type 'application/zip' length 2720727 bytes (2.6 MB)
+downloaded 2.6 MB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/R6_2.1.2.zip'
+Content type 'application/zip' length 271190 bytes (264 KB)
+downloaded 264 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/httr_1.1.0.zip'
+Content type 'application/zip' length 260317 bytes (254 KB)
+downloaded 254 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/memoise_1.0.0.zip'
+Content type 'application/zip' length 23305 bytes (22 KB)
+downloaded 22 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/whisker_0.3-2.zip'
+Content type 'application/zip' length 64631 bytes (63 KB)
+downloaded 63 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/digest_0.6.9.zip'
+Content type 'application/zip' length 171684 bytes (167 KB)
+downloaded 167 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/rstudioapi_0.5.zip'
+Content type 'application/zip' length 46142 bytes (45 KB)
+downloaded 45 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/jsonlite_0.9.19.zip'
+Content type 'application/zip' length 1008997 bytes (985 KB)
+downloaded 985 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/git2r_0.14.0.zip'
+Content type 'application/zip' length 2987110 bytes (2.8 MB)
+downloaded 2.8 MB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/withr_1.0.1.zip'
+Content type 'application/zip' length 42063 bytes (41 KB)
+downloaded 41 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/devtools_1.11.0.zip'
+Content type 'application/zip' length 409703 bytes (400 KB)
+downloaded 400 KB
+
+package ‘mime’ successfully unpacked and MD5 sums checked
+package ‘curl’ successfully unpacked and MD5 sums checked
+package ‘openssl’ successfully unpacked and MD5 sums checked
+package ‘R6’ successfully unpacked and MD5 sums checked
+package ‘httr’ successfully unpacked and MD5 sums checked
+package ‘memoise’ successfully unpacked and MD5 sums checked
+package ‘whisker’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘rstudioapi’ successfully unpacked and MD5 sums checked
+package ‘jsonlite’ successfully unpacked and MD5 sums checked
+package ‘git2r’ successfully unpacked and MD5 sums checked
+package ‘withr’ successfully unpacked and MD5 sums checked
+package ‘devtools’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\Abhi\AppData\Local\Temp\RtmpIZphr2\downloaded_packages
+> library(devtools)
+> install_github (“geoffjentry/twitteR”)
+Error: unexpected input in "install_github (“"
+> install_github(“geoffjentry/twitteR”)
+Error: unexpected input in "install_github(“"
+> install.github("geoffjentry/twitteR")
+Error: could not find function "install.github"
+> install.packages("twitteR")
+Installing package into ‘C:/Users/Abhi/Documents/R/win-library/3.2’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘bit’, ‘bit64’, ‘rjson’, ‘DBI’
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/bit_1.1-12.zip'
+Content type 'application/zip' length 218381 bytes (213 KB)
+downloaded 213 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/bit64_0.9-5.zip'
+Content type 'application/zip' length 485039 bytes (473 KB)
+downloaded 473 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/rjson_0.2.15.zip'
+Content type 'application/zip' length 493614 bytes (482 KB)
+downloaded 482 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/DBI_0.3.1.zip'
+Content type 'application/zip' length 162343 bytes (158 KB)
+downloaded 158 KB
+
+trying URL 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/contrib/3.2/twitteR_1.1.9.zip'
+Content type 'application/zip' length 446660 bytes (436 KB)
+downloaded 436 KB
+
+package ‘bit’ successfully unpacked and MD5 sums checked
+package ‘bit64’ successfully unpacked and MD5 sums checked
+package ‘rjson’ successfully unpacked and MD5 sums checked
+package ‘DBI’ successfully unpacked and MD5 sums checked
+package ‘twitteR’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\Abhi\AppData\Local\Temp\RtmpIZphr2\downloaded_packages
+> library("twitteR")
+> setup_twitter_oauth(consumerKey, consumerSecret, accessToken, accessTokenSecret)
+Error in structure(list(appname = appname, secret = secret, key = key),  : 
+  object 'consumerSecret' not found
+> ??setp_twitter_oauth
+starting httpd help server ... done
+> userTimeline('r_programming',n=10)
+Error in get_oauth_sig() : OAuth has not been registered for this session
+> setup_twitter_oauth(_____)
+Error in structure(list(appname = appname, secret = secret, key = key),  : 
+  object 'll6k2JlceiOAWhikrIjG1UKESZQYLj43UH1ej9RiIw1WQOEeop' not found
+> setup_twitter_oauth(_____)
+[1] "Using direct authentication"
+Use a local file to cache OAuth access credentials between R sessions?
+1: Yes
+2: No
+
+Selection: 1
+Adding .httr-oauth to .gitignore
+> userTimeline('r_programming',n=10)
+[[1]]
+[1] "R_Programming: @arun_sriniv Truly, a remarkable piece of work. Congrats!"
+
+[[2]]
+[1] "R_Programming: R Tip: How to write super fast for-loops with data.table::set() #rstats #datascience https://t.co/H2SqXJFadY"
+
+[[3]]
+[1] "R_Programming: Learn R By Intensive Practice - Part 2 is here! https://t.co/fZnksr1Atb #rstats #datascience #analytics https://t.co/Lf3G0kCdzQ"
+
+[[4]]
+[1] "R_Programming: R Tip: How to use `stargazer` to compare results of regression models. see pic. #rstats #datascience #statistics https://t.co/gvyQmAAMOH"
+
+[[5]]
+[1] "R_Programming: A book packed with a lot of useful code and best practices by @daroczig https://t.co/BqqF1CdAlF #rstats #datascience https://t.co/oiz39sIAkZ"
+
+[[6]]
+[1] "R_Programming: @SylvainCF When you want to test how good your imputation method is, yes?"
+
+[[7]]
+[1] "R_Programming: R Tip: In a given dataset, missForest::prodNA( ) introduces missing values at random. See pic. #rstats #datascience https://t.co/xZRvcZn6Bn"
+
+[[8]]
+[1] "R_Programming: @TrevorABranch @romunov Its just a tip. Ofcourse, sprintf is nice and familiar. But I use this often. https://t.co/b3ZxfhLOYF"
+
+[[9]]
+[1] "R_Programming: R Tip: A convenient symbol function to join strings! #rstats #datascience https://t.co/JKQsz16oUi"
+
+[[10]]
+[1] "R_Programming: How Latent Dirichlet Allocation Works? Manually coded! https://t.co/bP83Wr5Mrf #rstats #datascience #machinelearning https://t.co/W8qNJnF1W4"
+
+> userTimeline('MarsOrbiter',n=10)
+[[1]]
+[1] "MarsOrbiter: #HappyNewYear, dear earthlings! North pole looks wicked cool here! https://t.co/f2cLXrBSAT"
+
+[[2]]
+[1] "MarsOrbiter: First snap after coming out of blackout. http://t.co/od7qyPeGB3 http://t.co/7X5xuClCCm"
+
+[[3]]
+[1] "MarsOrbiter: Tyrrhenus Mons - the ancient martian volcano and its timeworn gullies. Read more at: http://t.co/Ml4fAlJ5Bz http://t.co/lvraT2xvHs"
+
+[[4]]
+[1] "MarsOrbiter: Close-up of grandest canyon of all: Valles Marineris. http://t.co/Sn4Kc2svfv"
+
+[[5]]
+[1] "MarsOrbiter: Bidding farewell to the one who led me up to this planet. It was an honour to be a part of your team Dr Radhakrishnan."
+
+[[6]]
+[1] "MarsOrbiter: Phew! Experience of a lifetime. Watched the #MarsComet #SidingSpring whizzing past the planet. I'm in my orbit, safe and sound."
+
+[[7]]
+[1] "MarsOrbiter: @isro A mountain three times as tall as Mount Everest, a canyon, nine times as long as the Grand Canyon."
+
+[[8]]
+[1] "MarsOrbiter: Did you see that? It moved! Oh, it's just Phobos. https://t.co/vaY7w5JjW0"
+
+> homeTimeline(n=15)
+[[1]]
+[1] "StarSportsIndia: With Hamilton starting from the last, will @nico_rosberg make the most of it &amp; dominate the #ChineseGP? #F1 https://t.co/U6T2i5xAox"
+
+[[2]]
+[1] "ESPNcricinfo: Despite \"a hamstring with a catalogue of misfortune\", Aaron Finch delivered the win for Gujarat Lions https://t.co/fm8yY7tgsy #IPL2016"
+
+[[3]]
+[1] "ESPNcricinfo: In a match decided off the last ball, Akshdeep Nath's leap at deep midwicket was a game-changer \n\nhttps://t.co/QMfW3OJtea #MIvGJ #IPL2016"
+
+[[4]]
+[1] "AnupamPkher: When you are telling the truth you don't have to remember it.:) https://t.co/nJ7tHCCfiU"
+
+[[5]]
+[1] "ShashiTharoor: The kind oif episode that keeps reinforcing one's faith in social media! https://t.co/uXSJbC4ygd"
+
+[[6]]
+[1] "ShashiTharoor: A night in Hamlet's castle? I'm sure some Indians can ace the contest for it! https://t.co/DTogjN3VQ3"
+
+[[7]]
+[1] "AnupamPkher: \"A man who has to be convinced to act before he acts is not a man of action. You must act as you breathe.\":)"
+
+[[8]]
+[1] "StarSportsIndia: Surfaces didn't matter to Murali; he turned it everywhere! Here's wishing him on his birthday! #HappyBirthdayMurali https://t.co/SdZCh56NXu"
+
+[[9]]
+[1] "aliaa08: Thank you guys for all the \"Udta\" love!!!!! \u2b50?\u2b50?\u2b50? #UdtaPunjab @shahidkapoor @diljitdosanjh #KareenaKapoorKhan @EkmainaurEktu7 @FuhSePhantom"
+
+[[10]]
+[1] "aliaa08: Yesssssss!!!!!!! Wohoo  https://t.co/50qVOLdP8h"
+
+[[11]]
+[1] "ArianaGrande: 1. moonlight \n2. dangerous woman\n3. be alright\n4. into you \n5. side to side feat @nickiminaj\n6.… https://t.co/JRzZlbr17t"
+
+[[12]]
+[1] "davidguetta: RT @EncoreBeachClub: Join the @DavidGuetta show on Snapchat \xed ½\xed±» at: (EncoreBeachClub) https://t.co/YQayQv2ekn"
+
+[[13]]
+[1] "NatGeoEducation: #FindYourPark\nToday, we found @IndianaDunesNPS, home of plant detectives! \nhttps://t.co/6YCYnQbFDB https://t.co/Uka4wK6UAS"
+
+[[14]]
+[1] "davidguetta: RT @XSlasvegas: Last night, @DavidGuetta had us all partying till the sun came up! #XSLasVegas https://t.co/RVxeSwKEBr"
+
+[[15]]
+[1] "davidguetta: RT @GLOWINTHEDARK_: Ayy! Our EP “Stars &amp; Moon” is OUT NOW @DimMak!! #TURNT Get your copy HERE https://t.co/y5mZ4nGkst! https://t.co/h6MMRPD…"
+
+> mentions(n=15)
+list()
+> mentions (n=15)
+list()
+> fav <- favorites("MarsOrbiter", n=10)
+> tweets <- searchTwitter("MarsCuriosity", n=25)
+> fav <- favorites("StarSportsIndia #OwnTheJersey", n=10)
+Error in twInterfaceObj$doAPICall(cmd, params, method, ...) : 
+  Not Found (HTTP 404).
+> fav <- favorites("StarSportsIndia", n=10)
+> fav <- favorites("TCS", n=10)
+> fav <- favorites("#", n=10)
+Error in twInterfaceObj$doAPICall(cmd, params, method, ...) : 
+  Not Found (HTTP 404).
+> fav <- favorites("A", n=10)
+> fav <- homeTimeline(n=15)
+> fav
+[[1]]
+[1] "ShashiTharoor: Bipartisan support(in an election season!) for empowering girls through sport. With Thiruvananthapuram MayorPrasanth https://t.co/mWcaYrPosw"
+
+[[2]]
+[1] "StarSportsIndia: With Hamilton starting from the last, will @nico_rosberg make the most of it &amp; dominate the #ChineseGP? #F1 https://t.co/U6T2i5xAox"
+
+[[3]]
+[1] "ESPNcricinfo: Despite \"a hamstring with a catalogue of misfortune\", Aaron Finch delivered the win for Gujarat Lions https://t.co/fm8yY7tgsy #IPL2016"
+
+[[4]]
+[1] "ESPNcricinfo: In a match decided off the last ball, Akshdeep Nath's leap at deep midwicket was a game-changer \n\nhttps://t.co/QMfW3OJtea #MIvGJ #IPL2016"
+
+[[5]]
+[1] "AnupamPkher: When you are telling the truth you don't have to remember it.:) https://t.co/nJ7tHCCfiU"
+
+[[6]]
+[1] "ShashiTharoor: The kind oif episode that keeps reinforcing one's faith in social media! https://t.co/uXSJbC4ygd"
+
+[[7]]
+[1] "ShashiTharoor: A night in Hamlet's castle? I'm sure some Indians can ace the contest for it! https://t.co/DTogjN3VQ3"
+
+[[8]]
+[1] "AnupamPkher: \"A man who has to be convinced to act before he acts is not a man of action. You must act as you breathe.\":)"
+
+[[9]]
+[1] "StarSportsIndia: Surfaces didn't matter to Murali; he turned it everywhere! Here's wishing him on his birthday! #HappyBirthdayMurali https://t.co/SdZCh56NXu"
+
+[[10]]
+[1] "aliaa08: Thank you guys for all the \"Udta\" love!!!!! \u2b50?\u2b50?\u2b50? #UdtaPunjab @shahidkapoor @diljitdosanjh #KareenaKapoorKhan @EkmainaurEktu7 @FuhSePhantom"
+
+[[11]]
+[1] "aliaa08: Yesssssss!!!!!!! Wohoo  https://t.co/50qVOLdP8h"
+
+[[12]]
+[1] "ArianaGrande: 1. moonlight \n2. dangerous woman\n3. be alright\n4. into you \n5. side to side feat @nickiminaj\n6.… https://t.co/JRzZlbr17t"
+
+[[13]]
+[1] "davidguetta: RT @EncoreBeachClub: Join the @DavidGuetta show on Snapchat \xed ½\xed±» at: (EncoreBeachClub) https://t.co/YQayQv2ekn"
+
+[[14]]
+[1] "NatGeoEducation: #FindYourPark\nToday, we found @IndianaDunesNPS, home of plant detectives! \nhttps://t.co/6YCYnQbFDB https://t.co/Uka4wK6UAS"
+
+[[15]]
+[1] "davidguetta: RT @XSlasvegas: Last night, @DavidGuetta had us all partying till the sun came up! #XSLasVegas https://t.co/RVxeSwKEBr"
+
+> tweetsDF <- twListToDF(fav)
+> tweetsDF
+                                                                                                                                                                                     text
+1                                            Bipartisan support(in an election season!) for empowering girls through sport. With Thiruvananthapuram MayorPrasanth https://t.co/mWcaYrPosw
+2                                                 With Hamilton starting from the last, will @nico_rosberg make the most of it &amp; dominate the #ChineseGP? #F1 https://t.co/U6T2i5xAox
+3                                                  Despite "a hamstring with a catalogue of misfortune", Aaron Finch delivered the win for Gujarat Lions https://t.co/fm8yY7tgsy #IPL2016
+4                                             In a match decided off the last ball, Akshdeep Nath's leap at deep midwicket was a game-changer \n\nhttps://t.co/QMfW3OJtea #MIvGJ #IPL2016
+5                                                                                                 When you are telling the truth you don't have to remember it.:) https://t.co/nJ7tHCCfiU
+6                                                                                        The kind oif episode that keeps reinforcing one's faith in social media! https://t.co/uXSJbC4ygd
+7                                                                                   A night in Hamlet's castle? I'm sure some Indians can ace the contest for it! https://t.co/DTogjN3VQ3
+8                                                                            "A man who has to be convinced to act before he acts is not a man of action. You must act as you breathe.":)
+9                                             Surfaces didn't matter to Murali; he turned it everywhere! Here's wishing him on his birthday! #HappyBirthdayMurali https://t.co/SdZCh56NXu
+10 Thank you guys for all the "Udta" love!!!!! <U+2B50><U+FE0F><U+2B50><U+FE0F><U+2B50><U+FE0F> #UdtaPunjab @shahidkapoor @diljitdosanjh #KareenaKapoorKhan @EkmainaurEktu7 @FuhSePhantom
+11                                                                                                                                        Yesssssss!!!!!!! Wohoo  https://t.co/50qVOLdP8h
+12                                                          1. moonlight \n2. dangerous woman\n3. be alright\n4. into you \n5. side to side feat @nickiminaj\n6.… https://t.co/JRzZlbr17t
+13                                     RT @EncoreBeachClub: Join the @DavidGuetta show on Snapchat <ed><U+00A0><U+00BD><ed><U+00B1><U+00BB> at: (EncoreBeachClub) https://t.co/YQayQv2ekn
+14                                                           #FindYourPark\nToday, we found @IndianaDunesNPS, home of plant detectives! \nhttps://t.co/6YCYnQbFDB https://t.co/Uka4wK6UAS
+15                                                                 RT @XSlasvegas: Last night, @DavidGuetta had us all partying till the sun came up! #XSLasVegas https://t.co/RVxeSwKEBr
+   favorited favoriteCount replyToSN             created truncated replyToSID
+1      FALSE             4        NA 2016-04-17 06:26:57     FALSE         NA
+2      FALSE            19        NA 2016-04-17 05:29:34     FALSE         NA
+3      FALSE            55        NA 2016-04-17 05:10:23     FALSE         NA
+4      FALSE            56        NA 2016-04-17 04:41:02     FALSE         NA
+5      FALSE           407        NA 2016-04-17 03:53:03     FALSE         NA
+6      FALSE            45        NA 2016-04-17 03:48:32     FALSE         NA
+7      FALSE            36        NA 2016-04-17 03:47:14     FALSE         NA
+8      FALSE           578        NA 2016-04-17 03:38:18     FALSE         NA
+9      FALSE           147        NA 2016-04-17 03:29:34     FALSE         NA
+10     FALSE          1448        NA 2016-04-17 03:23:14     FALSE         NA
+11     FALSE           800        NA 2016-04-17 03:07:44     FALSE         NA
+12     FALSE         25274        NA 2016-04-17 02:18:03     FALSE         NA
+13     FALSE             0        NA 2016-04-17 01:39:06     FALSE         NA
+14     FALSE             3        NA 2016-04-17 01:08:07     FALSE         NA
+15     FALSE             0        NA 2016-04-17 00:58:45     FALSE         NA
+                   id replyToUID
+1  721585721887207425         NA
+2  721571283314556928         NA
+3  721566453564985344         NA
+4  721559068364578817         NA
+5  721546995014311936         NA
+6  721545854998319104         NA
+7  721545528773713920         NA
+8  721543282442895360         NA
+9  721541083839262720         NA
+10 721539490892767232         NA
+11 721535588885659650         NA
+12 721523087015972864         NA
+13 721513285422620673         NA
+14 721505487326326784         NA
+15 721503130362454016         NA
+                                                                           statusSource
+1  <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+2                       <a href="http://simplify360.com" rel="nofollow">Simplify360</a>
+3   <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
+4   <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
+5    <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+6                    <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+7                    <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+8    <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+9                       <a href="http://simplify360.com" rel="nofollow">Simplify360</a>
+10   <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+11   <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+12                          <a href="http://instagram.com" rel="nofollow">Instagram</a>
+13   <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+14    <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for iPad</a>
+15                   <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+        screenName retweetCount isRetweet retweeted longitude latitude
+1    ShashiTharoor            7     FALSE     FALSE        NA       NA
+2  StarSportsIndia            5     FALSE     FALSE        NA       NA
+3     ESPNcricinfo           10     FALSE     FALSE        NA       NA
+4     ESPNcricinfo           17     FALSE     FALSE        NA       NA
+5      AnupamPkher           89     FALSE     FALSE        NA       NA
+6    ShashiTharoor           14     FALSE     FALSE        NA       NA
+7    ShashiTharoor           13     FALSE     FALSE        NA       NA
+8      AnupamPkher          204     FALSE     FALSE        NA       NA
+9  StarSportsIndia           36     FALSE     FALSE        NA       NA
+10         aliaa08          273     FALSE     FALSE        NA       NA
+11         aliaa08          132     FALSE     FALSE        NA       NA
+12    ArianaGrande        15237     FALSE     FALSE        NA       NA
+13     davidguetta          100      TRUE     FALSE        NA       NA
+14 NatGeoEducation            1     FALSE     FALSE        NA       NA
+15     davidguetta          116      TRUE     FALSE        NA       NA
+ 
+> TextPreprocessing <- lapply(p, function(x) {
++ 
++   x = gsub('http\\S+\\s*', '', x) 
++ 
++   x = gsub('\\b+RT', '', x) 
++ 
++   x = gsub('#\\S+', '', x) 
++ 
++   x = gsub('@\\S+', '', x) 
++ 
++   x = gsub('[[:cntrl:]]', '', x) 
++   x = gsub("\\d", '', x) 
++ 
++   x = gsub('[[:punct:]]', '', x) 
++ 
++   x = gsub("^[[:space:]]*","",x) 
++ 
++   x = gsub("[[:space:]]*$","",x) 
++ 
++   x = gsub(' +',' ',x) 
++ 
++ }
+
